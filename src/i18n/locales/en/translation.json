@@ -1,0 +1,353 @@
+{
+  "homePage": "Home page",
+  "header": {
+    "analysis": "Analysis",
+    "pricing": "Pricing",
+    "trading": "Trading",
+    "support": "Support",
+    "login": "Login",
+    "register": "Register",
+    "profile": "Profile",
+    "settings": "Settings",
+    "logout": "Logout",
+    "changePassword": "Change password",
+    "upgradeTraiOS": "Upgrade TraiOS",
+    "signInSignUp": "Sign In / Sign up",
+    "language": "Language",
+    "account": "Account"
+  },
+  "pricing": {
+    "hero": {
+      "title": "Upgrade TraiOS"
+    },
+    "plans": {
+      "duration": "month",
+      "free": {
+        "title": "Free",
+        "description": "Perfect for beginners exploring the crypto trading world",
+        "features": {
+          "technical": "View 3 latest technical/sentiment analyses and trading recommendations without history",
+          "timeLimit": "Limited support (2 questions/day)",
+          "summary": "Basic news summaries (without links)",
+          "marketStatus": "Basic market status assessment from the manager at the beginning of the day",
+          "marketChanges": "Notifications about major market changes"
+        },
+        "currentPlan": "You are using this plan",
+        "button": "Get Started"
+      },
+      "pro": {
+        "title": "Premium",
+        "badge": "Popular",
+        "description": "For active traders who need advanced tools and insights",
+        "features": {
+          "advanced": "Unlimited access to analysis history (trade suggestions, technical and sentiment analysis)",
+          "history": "Unlimited time, personal chat support with junior and senior managers",
+          "pairs": "View detailed content and source links to news",
+          "alerts": "View detailed assessments and action plans from managers, updated multiple times daily",
+          "priority": "Push notifications about potential opportunities and risks as soon as they're detected"
+        },
+        "button": "Upgrade"
+      }
+    }
+  },
+  "login": {
+    "signIn": "Sign In",
+    "email": "Email",
+    "createAccount": "Create a account",
+    "forgotPassword": "Forgot password?",
+    "orContinueWith": "or continue with email",
+    "next": "Next"
+  },
+  "register": {
+    "title": "Create your TraiOS account",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Enter your email",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password",
+    "submitButton": "Next",
+    "signInLink": "Already have account? Sign in now",
+    "orContinueWith": "or continue with",
+    "logoAlt": "TraiOS Logo",
+    "socialButtons": {
+      "google": "Google",
+      "facebook": "Facebook",
+      "twitter": "Twitter",
+      "telegram": "Telegram"
+    },
+    "errors": {
+      "emptyFields": "Please enter your email and password",
+      "logPrefix": "Registration error:",
+      "serverConnection": "Cannot connect to server. Please try again later.",
+      "genericFail": "Registration failed. Please try again.",
+      "twitterLogin": "Twitter login error:",
+      "facebookLogin": "Facebook login error:",
+      "loginCancelled": "Login was cancelled. Please try again.",
+      "accountExists": "Account already exists with a different login method.",
+      "twitterLoginFailed": "Twitter login error: ",
+      "facebookLoginFailed": "Facebook login error: ",
+      "tryAgainLater": "Please try again later"
+    }
+  },
+  "forgotPassword": {
+    "title": "Enter your email",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Enter your email",
+    "submitButton": "Next",
+    "backToLogin": "Back to login",
+    "logoAlt": "TraiOS Logo",
+    "errors": {
+      "emailRequired": "Please enter your email",
+      "invalidEmail": "Invalid email address",
+      "userNotFound": "No user found with this email",
+      "serverError": "Server error. Please try again later"
+    }
+  },
+  "changePassword": {
+    "title": "Change Password",
+    "oldPasswordLabel": "Old Password",
+    "newPasswordLabel": "New Password",
+    "confirmPasswordLabel": "Confirm Password",
+    "oldPasswordPlaceholder": "Enter your old password",
+    "newPasswordPlaceholder": "Enter your new password",
+    "confirmPasswordPlaceholder": "Confirm your new password",
+    "submitButton": "Update Password",
+    "backToHome": "Back to home",
+    "logoAlt": "TraiOS Logo",
+    "successMessage": "Password changed successfully",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password",
+    "errors": {
+      "passwordRequired": "Password is required",
+      "passwordTooShort": "Password must be at least 8 characters",
+      "passwordsDoNotMatch": "Passwords do not match",
+      "genericError": "Error changing password. Please try again."
+    }
+  },
+  "passwordUpdated": {
+    "title": "Password Updated",
+    "message": "Your password has been set successfully",
+    "backHomeButton": "Back Home",
+    "logoAlt": "TraiOS Logo"
+  },
+  "landing": {
+    "footer": {
+      "rights": "All rights reserved."
+    },
+    "cta": {
+      "title": "Start TraiOS today",
+      "description": "Empower your financial future with our guidance focused squarely on building substantial wealth. We employ proven methods aimed at maximizing returns while carefully managing risk, ensuring sustainable growth for years to come.",
+      "button": "Get Started for Free"
+    },
+    "hero": {
+      "title": "AI-powered Trading Decisions",
+      "description": "Transform market data into intelligent strategic advantages and AI-driven decision insights. Harness this powerful data with accuracy and predictive insights, revealing profitable trading trends and opportunities.",
+      "button": "Get Started for Free"
+    }
+  },
+  "languages": {
+    "english": "English",
+    "vietnamese": "Tiếng Việt",
+    "japanese": "日本語"
+  },
+  "signOut": "Sign out",
+  "signUpNow": "Sign up now",
+  "password": "Password",
+  "enterYourEmail": "Enter your email",
+  "enterYourPassword": "Enter your password",
+  "dontHaveAccount": "Don't have an account?",
+  "confirmLogout": "Are you sure you want to log out?",
+  "language": "Language",
+  "user": "User",
+  "oldPassword": "Old password",
+  "newPassword": "New password",
+  "confirmPassword": "Confirm password",
+  "passwordRequired": "Password is required",
+  "passwordTooShort": "Password must be at least 8 characters",
+  "passwordsDoNotMatch": "Passwords do not match",
+  "errorChangingPassword": "Error changing password. Please try again.",
+  "passwordChangedSuccessfully": "Password changed successfully",
+  "passwordUpdated": "Password updated!",
+  "passwordSetSuccessfully": "Your password has been set successfully",
+  "backHome": "Back Home",
+  "showPassword": "Show password",
+  "hidePassword": "Hide password",
+  "backToHome": "Back to home",
+  
+  "heroTitle": "AI-powered for Trading Decisions",
+  "heroDescription": "Transform market data into your strategic advantage; our AI engine decodes intricate patterns, quantifies potential risks with precision, and delivers predictive insights, enabling faster, smarter, and ultimately more profitable trading decisions.",
+  "getStartedForFree": "Get Started for Free",
+  
+  "featuresTitle": "AI-Powered Trading: 24/7 Intelligent Market Mastery",
+  "aiDecisionMakingAlt": "AI Decision Making",
+  "aiDecisionMakingTitle": "AI-Driven Decision Making",
+  "aiDecisionMakingDesc": "Experience a risk-based model, apply contextual market trends, metrics, technical fundamental, and expert insights making for a highly sophisticated AI.",
+  
+  "aiBrokerAssistanceAlt": "AI Broker Assistance",
+  "aiBrokerAssistanceTitle": "AI-Powered Broker Assistance",
+  "aiBrokerAssistanceDesc": "Engage in real-time, 24/7 conversations with our AI-driven tips broker. The Bot reads insights and enhance decision making.",
+  
+  "aiLearningAlt": "AI Learning",
+  "aiLearningTitle": "AI-Driven Adaptive Learning",
+  "aiLearningDesc": "Leveraging Conversational AI-powered learning (CPA) and machine learning algorithms to continuously enhance decision making, adapting in real time to market shifts.",
+  
+  "infrastructureTitle": "Trusted Infrastructure for Growth",
+  "regulatoryComplianceAlt": "Regulatory Compliance",
+  "regulatoryComplianceTitle": "Regulatory Compliance",
+  "regulatoryComplianceDesc": "Proactively aligning with financial authorities in the U.S., Japan, and Vietnam to ensure compliance and security.",
+  
+  "strategicPartnershipsAlt": "Strategic Partnerships",
+  "strategicPartnershipsTitle": "Strategic Partnerships",
+  "strategicPartnershipsDesc": "Collaborating with reputable financial institutions and exchanges to enhance trust, liquidity, and market access.",
+  
+  "scalableInfrastructureAlt": "Scalable & Cost-Efficient",
+  "scalableInfrastructureTitle": "Scalable & Cost-Efficient",
+  "scalableInfrastructureDesc": "A cloud-based architecture capable of serving millions of users globally—scaling effortlessly with minimal human cost.",
+  
+  "auth": {
+    "telegramLogin": {
+      "title": "Login with Telegram",
+      "description": "Please login with your Telegram account",
+      "cancel": "Cancel"
+    },
+    "errors": {
+      "login": {
+        "incorrect": "Incorrect email or password",
+        "generic": "Login failed",
+        "cancelled": "Login was cancelled. Please try again.",
+        "unauthorized": "Domain not configured in Firebase",
+        "server": "Server error",
+        "configDomain": "Need to add current domain to Firebase Console in Authentication > Sign-in method > Authorized domains"
+      },
+      "telegram": {
+        "failed": "Telegram login failed: "
+      },
+      "google": {
+        "failed": "Google login failed: "
+      },
+      "facebook": {
+        "failed": "Facebook login failed: ",
+        "noToken": "Facebook accessToken does not exist",
+        "noTokenApi": "API did not return token or access_token",
+        "userCancelled": "Login cancelled by user"
+      },
+      "twitter": {
+        "failed": "Twitter login failed: "
+      },
+      "register": {
+        "failed": "Registration failed: "
+      },
+      "logout": {
+        "failed": "Logout failed: "
+      },
+      "password": {
+        "noUser": "No user is logged in",
+        "changeFailed": "Error changing password:"
+      },
+      "token": {
+        "refresh": "Unable to refresh token",
+        "noNew": "No new token received",
+        "refreshExpired": "Your session has expired, please login again",
+        "sessionExpired": "Session expired"
+      }
+    },
+    "logs": {
+      "facebook": {
+        "startApi": "Starting API call with Facebook accessToken:",
+        "apiEndpoint": "Calling API endpoint:",
+        "response": "Facebook login API response:",
+        "userInfo": "Facebook user info:",
+        "tokenSaved": "Token saved to localStorage",
+        "accessTokenSaved": "Access token saved to localStorage"
+      },
+      "auth": {
+        "tokenError": "Token authentication error:",
+        "logoutError": "Error calling logout API:",
+        "passwordError": "Error changing password:",
+        "refreshError": "Error refreshing token:",
+        "tokenRefreshed": "Token refreshed successfully",
+        "refreshTokenFailed": "Token refresh failed"
+      }
+    }
+  },
+  "analysis": {
+    "signInSignUp": "Sign in / Sign up",
+    "asset": "Asset",
+    "aiInfo": "AI Overal Info",
+    "historyAnalysis": "History & Analysis",
+    "liveChat": {
+      "liveChat": "AI Live Chat",
+      "title": "How can TraiOS help you?",
+      "inputPlaceholder": "Ask TraiOS",
+      "sendButton": "Send message"
+    },
+    "upgradeTraiOS": "Upgrade TraiOS",
+    "signUp": "Sign up",
+    "logIn": "Log in",
+    "slotsLeft": "{{count}} slots left",
+    "follow": "Follow",
+    "copy": "Copy",
+    "stats": {
+      "daysTrading": "Days Trading",
+      "copiers": "Copiers",
+      "profitSharing": "Profit Sharing"
+    },
+    "performance": {
+      "title": "Performance",
+      "roi": "ROI",
+      "pnl": "PnL",
+      "winRate": "Win Rate",
+      "winPosition": "Win Position",
+      "totalPosition": "Total Position"
+    },
+    "chart": {
+      "cumulativePnL": "Cumulative PnL",
+      "cumulativeROI": "Cumulative ROI",
+      "timeSelector": {
+        "7days": "7 Days",
+        "30days": "30 days",
+        "90days": "90 days",
+        "180days": "180 days"
+      }
+    },
+    "history": {
+      "analysisHistory": "Analysis History",
+      "noPositionsFound": "No positions found for this date",
+      "holdLong": "Hold Long",
+      "holdShort": "Hold Short",
+      "neutral": "Neutral",
+      "holdLongUpper": "HOLD LONG",
+      "holdShortUpper": "HOLD SHORT",
+      "unknown": "UNKNOWN",
+      "valid": "Valid",
+      "invalid": "Invalid",
+      "inferenceId": "Inference ID",
+      "orderType": "Order type",
+      "strategyName": "Strategy Name",
+      "leverage": "Leverage",
+      "confidentScore": "Confident score",
+      "returnOnRisk": "Return on risk",
+      "limitEntryPrice": "Limit Entry Price",
+      "stopLossPrice": "Stop Loss Price",
+      "stopPrice": "Stop Price",
+      "takeProfitPrice": "Take Profit Price",
+      "sentimentAnalysis": "Sentiment Analysis",
+      "technicalAnalysis": "Technical Analysis",
+      "reasoningAnalysis": "Reasoning Analysis",
+      "sentimentAnalysisSort": "Sentiment",
+      "technicalAnalysisSort": "Technical",
+      "reasoningAnalysisSort": "Reasoning",
+      "analysis": "Analysis",
+      "viewLinks": "View Links",
+      "sentimentDetail": "Sentiment Detail",
+      "noTechnicalAnalysis": "No technical analysis available",
+      "noReasoningAnalysis": "No sentiment analysis available",
+      "pleaseLogin": "Please login to view all content",
+      "sentimentLinks": "Sentiment Links",
+      "sentimentDetailTitle": "Sentiment Detail",
+      "summarySort": "Summary",
+      "summary": "Summary Analysis"
+    }
+  }
+} 

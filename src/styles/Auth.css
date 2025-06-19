@@ -1,0 +1,521 @@
+/* Styles mới cho trang Login */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #ffffff;
+  padding: 1rem;
+}
+
+.login-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #D4D4D8;
+  padding: 32px;
+  width: 500px;
+  height: 724px;
+}
+
+.login-logo {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-bottom: 1.5rem;
+}
+
+.login-logo img {
+  width: auto;
+  height: 32px;
+}
+
+.login-logo h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2563eb;
+  margin: 0;
+}
+
+.login-card h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #111827;
+}
+
+.form-group {
+  margin-bottom: 1.25rem;
+}
+
+.form-group label {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: #374151;
+}
+
+.form-group input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  font-size: 0.875rem;
+  transition: all 0.15s ease-in-out;
+  outline: none;
+  background-color: #FFFFFF;
+}
+
+/* Ghi đè màu nền cho Chrome autofill */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px #FFFFFF inset;
+  -webkit-text-fill-color: #000000;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+/* Ghi đè màu nền cho Firefox autofill */
+input:autofill,
+input:autofill:hover,
+input:autofill:focus,
+input:autofill:active {
+  box-shadow: 0 0 0 30px #FFFFFF inset;
+  -webkit-text-fill-color: #000000;
+}
+
+.form-group input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}
+
+.login-container .login-btn {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.15s ease-in-out;
+  margin-top: 0.5rem;
+}
+
+.login-container .login-btn:hover, .login-container .login-btn:focus {
+  background-color: #2563eb;
+}
+
+.login-container .login-btn:disabled {
+  background-color: #93c5fd;
+  cursor: not-allowed;
+}
+
+.login-links {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  margin: 1rem 0;
+}
+
+.login-links a {
+  color: #3b82f6;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out;
+}
+
+.login-links a:hover {
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+.login-divider {
+  display: flex;
+  align-items: center;
+  margin: 1.5rem 0;
+  color: #6b7280;
+  font-size: 0.875rem;
+}
+
+.login-divider:before, .login-divider:after {
+  content: "";
+  flex: 1;
+  border-top: 1px solid #e5e7eb;
+}
+
+.login-divider span {
+  padding: 0 0.75rem;
+}
+
+.social-login-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
+
+.social-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.375rem;
+  background-color: white;
+  cursor: pointer;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.social-btn:hover {
+  background-color: #f3f4f6;
+}
+
+.social-btn img {
+  width: 18px;
+  height: 18px;
+  margin-right: 0.5rem;
+}
+
+.social-btn span {
+  font-size: 0.875rem;
+  color: #374151;
+}
+
+.hidden-telegram-widget {
+  /*display: none;*/
+}
+
+.login-error {
+  color: #FF3B30;
+  margin-bottom: 1rem;
+  font-size: 0.875rem;
+}
+
+/* Style cho trạng thái lỗi */
+.form-group.has-error label {
+  color: #FF3B30;
+}
+
+.form-group.has-error input {
+  border-color: #FF3B30;
+  border-radius: 12px;
+  color: #FF3B30 !important;
+}
+
+.login-error-message {
+  color: #FF3B30;
+  font-size: 12px;
+  margin-top: 4px;
+  margin-bottom: 0;
+  transition: all 0.3s ease;
+  opacity: 1;
+}
+
+.login-success {
+  background-color: #dcfce7;
+  color: #15803d;
+  padding: 0.75rem;
+  border-radius: 0.375rem;
+  margin-bottom: 1rem;
+  font-size: 0.875rem;
+}
+
+/* Mobile Responsive (767px và nhỏ hơn) */
+@media screen and (max-width: 767px) {
+  .login-container {
+    padding: 0;
+    border-radius: 0;
+    border: none;
+  }
+  .login-card {
+    padding: 32px;
+    width: 100%;
+    border-radius: unset;
+    border: none;
+  }
+  
+  /* .social-login-grid {
+    grid-template-columns: 1fr;
+  } */
+  
+  .login-links {
+    /* flex-direction: column; */
+    gap: 0.75rem;
+    align-items: center;
+  }
+}
+
+/* Giữ lại các styles cũ hỗ trợ */
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.auth-form {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  width: 100%;
+  max-width: 420px;
+  margin: 1rem;
+}
+
+.auth-error {
+  color: #d93025;
+  background-color: #fce8e6;
+  padding: 0.75rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.auth-separator {
+  display: flex;
+  align-items: center;
+  margin: 1.5rem 0;
+  color: #777;
+}
+
+.auth-separator::before,
+.auth-separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #ddd;
+}
+
+.auth-separator span {
+  padding: 0 10px;
+}
+
+.social-login-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.primary-btn {
+  background-color: #4285f4;
+}
+
+#telegram-login-container {
+  margin: 1rem 0;
+}
+
+/* Styles cho Telegram widget */
+#telegram-login-container:not(:empty) + .telegram-fallback-btn {
+  display: none;
+}
+
+/* Styles cho Google widget */
+.google-login-container:not(:empty) + .google-fallback-btn {
+  display: none;
+}
+
+/* Tùy chỉnh nút Google */
+.social-login-buttons .google-login-container iframe {
+  width: 100% !important;
+}
+
+/* Tablet và Desktop (768px và lớn hơn) */
+@media screen and (min-width: 768px) {
+  .social-login-buttons {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .social-login-buttons button {
+    flex: 0 0 48%;
+  }
+  
+  /* Căn chỉnh widget Telegram khi ở desktop */
+  .telegram-login-container,
+  .google-login-container {
+    flex: 0 0 48%;
+    margin: 0.5rem 0;
+  }
+}
+
+/* Style cho input mật khẩu và nút hiển thị/ẩn */
+.password-input-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.password-input-container input {
+  width: 100%;
+  padding-right: 40px;
+  border-radius: 12px;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 12px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  outline: none;
+  z-index: 2;
+}
+
+.toggle-password:hover {
+  opacity: 0.8;
+}
+
+.toggle-password-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.verification-message {
+  text-align: center;
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.verification-message p {
+  color: #333;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Styles cho màn hình verify email */
+.verify-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  padding: 1rem;
+}
+
+.verify-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #D4D4D8;
+  padding: 32px;
+  width: 500px;
+  max-width: 100%;
+}
+
+.verify-logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.verify-logo img {
+  width: auto;
+  height: 32px;
+}
+
+.verify-card h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 16px;
+}
+
+.verify-message {
+/*  background-color: #F8FAFC;
+  border-radius: 12px;
+  padding: 24px;
+  margin: 24px 0;*/
+}
+
+.verify-message p {
+  color: #475569;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.verify-action {
+  margin-top: 24px;
+}
+
+.verify-action .login-btn {
+  display: inline-block;
+  width: 100%;
+  padding: 12px;
+  background-color: #0066FF;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.verify-action .login-btn:hover {
+  background-color: #0052CC;
+}
+
+.back-to-login {
+  display: inline-block;
+  color: #3B82F6;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.back-to-login:hover {
+  color: #2563EB;
+  text-decoration: underline;
+}
+
+/* Mobile Responsive */
+@media screen and (max-width: 576px) {
+  .verify-card {
+    padding: 24px;
+    margin: 16px;
+  }
+
+  .verify-card h2 {
+    font-size: 20px;
+  }
+
+  .verify-message p {
+    font-size: 14px;
+  }
+}
+
+/* Telegram Login Widget Styles */
+.hidden-telegram-widget {
+  /*display: none;*/
+}
+
+/*.telegram-btn {
+  background-color: #0088cc !important;
+  color: white !important;
+}
+
+.telegram-btn:hover {
+  background-color: #0077b3 !important;
+}
+
+.telegram-btn img {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+} */

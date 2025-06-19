@@ -1,0 +1,25 @@
+{
+  "pricing": "Bảng giá",
+  "analysis": "Phân tích",
+  "upgradePlan": "Nâng cấp TraiOS",
+  "freePlan": "Miễn phí",
+  "premiumPlan": "Premium",
+  "month": "tháng",
+  "popular": "Phổ biến",
+  "useNow": "Sử dụng ngay",
+  "upgrade": "Nâng cấp",
+  "dashboard": "Bảng điều khiển",
+  "signUp": "Đăng ký",
+  
+  "freePlanFeature1": "Xem 3 phân tích technical/sentiment và gợi ý lệnh gần nhất nhưng không bao gồm lịch sử mới nhất",
+  "freePlanFeature2": "Hỗ trợ giới hạn thời gian (2 câu hỏi/ngày)",
+  "freePlanFeature3": "Xem summary cơ bản của tin tức (không kèm link)",
+  "freePlanFeature4": "Đánh giá cơ bản về trạng thái thị trường từ manager đầu ngày",
+  "freePlanFeature5": "Nhận thông báo về thay đổi lớn của thị trường",
+  
+  "premiumPlanFeature1": "Không giới hạn truy cập lịch sử phân tích (suggest lệnh, phân tích technical và sentiment)",
+  "premiumPlanFeature2": "Không giới hạn thời gian, hỗ trợ chat cả với quản lý cấp thấp và cấp cao",
+  "premiumPlanFeature3": "Xem đầy đủ nội dung chi tiết và link nguồn tin",
+  "premiumPlanFeature4": "Xem đánh giá chi tiết và kế hoạch hành động từ manager, cập nhật nhiều lần trong ngày",
+  "premiumPlanFeature5": "Thông báo push về các cơ hội và rủi ro tiềm năng ngay khi phát hiện"
+} 

@@ -1,0 +1,23 @@
+.side-menu {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 100vh;
+  background-color: #1A1A1A;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.others-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.copyright {
+  font-size: 12px;
+  color: #666;
+  text-align: center;
+  margin-top: 20px;
+} 

@@ -1,0 +1,108 @@
+/* Google Sans Font Definitions */
+
+/* Google Sans OTF */
+@font-face {
+  font-family: 'Google Sans';
+  src: url('../../public/assets/fonts/GoogleSansOTF/GoogleSans-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Google Sans';
+  src: url('../../public/assets/fonts/GoogleSansOTF/GoogleSans-Italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Google Sans';
+  src: url('../../public/assets/fonts/GoogleSansOTF/GoogleSans-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Google Sans';
+  src: url('../../public/assets/fonts/GoogleSansOTF/GoogleSans-MediumItalic.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Google Sans';
+  src: url('../../public/assets/fonts/GoogleSansOTF/GoogleSans-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Google Sans';
+  src: url('../../public/assets/fonts/GoogleSansOTF/GoogleSans-BoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Google Sans TTF (fallback) */
+@font-face {
+  font-family: 'Google Sans TTF';
+  src: url('../../public/assets/fonts/GoogleSansTTF/GoogleSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Google Sans TTF';
+  src: url('../../public/assets/fonts/GoogleSansTTF/GoogleSans-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Google Sans TTF';
+  src: url('../../public/assets/fonts/GoogleSansTTF/GoogleSans-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Google Sans TTF';
+  src: url('../../public/assets/fonts/GoogleSansTTF/GoogleSans-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Google Sans TTF';
+  src: url('../../public/assets/fonts/GoogleSansTTF/GoogleSans-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Google Sans TTF';
+  src: url('../../public/assets/fonts/GoogleSansTTF/GoogleSans-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Default Font Family */
+:root {
+  --default-font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", "Noto Sans", "Roboto";
+}
+
+* {
+  font-family: var(--default-font-family) !important;
+} 
