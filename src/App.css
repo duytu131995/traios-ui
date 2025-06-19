@@ -1,0 +1,439 @@
+/* General Reset */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #333333;
+  line-height: 1.6;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+@media screen and (max-width: 410) {
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
+
+/* App Container */
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Top Menu */
+.top-menu {
+  display: flex;
+  background-color: #ffffff;
+  color: #333333;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e6e6e6;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.top-menu h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.header-logo {
+  width: 40px; /* Adjust size as needed */
+  height: auto;
+  margin-right: 10px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.language-switcher {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.tech-text {
+  color: #000000; /* Neutral white text */
+  text-transform: uppercase; /* Slight emphasis with uppercase letters */
+  letter-spacing: 0.05em; /* Slight letter spacing for clarity */
+  font-weight: 400; /* Moderate weight to avoid bold distractions */
+  border-bottom: 2px solid #00aaff; /* Subtle accent underline */
+}
+
+.top-menu button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.top-menu button:hover {
+  background-color: #0056b3;
+}
+
+/* Main Content */
+.content {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+/* Left Section */
+.left-section {
+  flex: 3;
+  overflow-y: auto;
+  overflow-x: unset !important;
+  padding: 1rem;
+  /* display: flex; */
+  /* flex-direction: column; */
+  background-color: #ffffff;
+  border-right: 1px solid #e6e6e6;
+}
+
+.center-symbol {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.center-symbol span {
+  font-size: 1.2em;
+  margin: 0 5px;
+}
+
+.select-asset-inf {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  gap: 1rem; /* Adds spacing between child divs */
+  align-items: center; 
+}
+
+.chart {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tradingview-widget-container {
+  height: 58vh; /* Full height of the parent container */
+  width: 100%;  /* Full width */
+}
+
+.js-plotly-plot {
+  width: 100% !important;
+  height: 50vh;
+}
+
+/* Info Boxes */
+.info-boxes {
+  /* display: flex; */
+  gap: 1rem;
+}
+
+.info-box {
+  flex: 1;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #e6e6e6;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow-y: auto; /* Enable vertical scrolling */
+  overflow-x: hidden; /* Hide horizontal overflow */
+}
+
+.info-box h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.info-box p {
+  margin: 0;
+  color: #555555;
+}
+
+/* Button for Side Panel */
+.info-box button {
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+  padding: 0.4rem 1rem;
+  border: none;
+  background-color: #007bff;
+  color: #ffffff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.info-box button:hover {
+  background-color: #0056b3;
+}
+
+/* Right Section */
+.right-section {
+  flex: 4;
+  background-color: #ffffff;
+  padding: 1rem;
+  overflow-y: auto;
+  overflow-x: unset;
+}
+
+.manager-reasoning,
+.manager-decision {
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  border: 1px solid #e6e6e6;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.manager-reasoning h2,
+.manager-decision h2 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+.manager-reasoning p,
+.manager-decision p {
+  margin: 0.5rem 0;
+  color: #555555;
+}
+
+/* Side Panel */
+.side-panel {
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 500px;
+  background-color: #ffffff;
+  color: #333333;
+  padding: 1rem;
+  box-shadow: -2px 0 8px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+}
+
+@media (max-width: 480px) {
+  .side-panel {
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    right: 0;
+    border-radius: 0;
+    padding: 0rem;
+    overscroll-behavior: contain;
+  }
+
+  .side-panel-header {
+    padding: 1rem;
+  }
+
+  .side-panel-content {
+    padding: 1rem;
+    overscroll-behavior: contain;
+  }
+}
+
+.side-panel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.side-panel-header h2 {
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+.side-panel-header button {
+  background-color: transparent;
+  color: #333333;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.side-panel-header button:hover {
+  color: #007bff;
+}
+
+.side-panel-content ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 1rem 0 0 0;
+}
+
+.side-panel-content li {
+  margin-bottom: 0.5rem;
+}
+
+.side-panel-content a {
+  display: block;
+  padding: 0.4rem;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  border: 1px solid #e6e6e6;
+}
+
+.side-panel-content a:hover {
+  background-color: #e6e6e6;
+}
+
+.wrapped-list {
+  width: 100%; /* Limit width of the list */
+  list-style-type: disc; /* Optional: Set list style */
+  margin: 0;
+  padding: 0;
+}
+
+.wrapped-list li {
+  word-wrap: break-word; /* Ensures long words wrap to the next line */
+  word-break: break-word; /* Handles unbreakable long text */
+  white-space: normal; /* Prevents text from staying on a single line */
+  padding: 8px 0; /* Optional: Add some spacing */
+}
+
+.custom-input {
+  max-width: 130px;
+  padding: 0.2rem 0.6rem;
+  font-size: 1rem;
+  margin-top: 0.2rem;
+  color: #333333;
+  background-color: #ffffff;
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+.custom-input:hover {
+  border-color: #cccccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.select-box {
+  max-width: 130px; /* Adjust as needed */
+  padding: 0.2rem 0.6rem;
+  font-size: 1rem;
+  margin-top: 0.2rem;
+  color: #333333;
+  background-color: #ffffff;
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  appearance: none; /* Removes default browser styles */
+  -moz-appearance: none; /* For Firefox */
+  -webkit-appearance: none; /* For Safari and Chrome */
+  cursor: pointer;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.select-box:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.2);
+  outline: none;
+}
+
+.select-box:hover {
+  border-color: #0056b3;
+}
+
+.select-box:disabled {
+  background-color: #f9f9f9;
+  color: #999999;
+  cursor: not-allowed;
+}
+
+/* Optional: Add an arrow icon for select box */
+.select-box::after {
+  content: '\\25BC'; /* Unicode for downward arrow */
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+
+.react-datepicker {
+  z-index: 1000; /* Ensure the date picker is above other elements */
+  width: 100%;
+  /* min-width: 500px; */
+}
+
+/* Responsive Design */
+@media (max-width: 1100px) {
+  .select-asset-inf {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    overflow: unset;
+  }
+
+  .left-section,
+  .right-section {
+    flex: 1;
+    overflow-y: unset;
+    height: auto;
+  }
+
+  .info-boxes {
+    flex-direction: column;
+  }
+  .select-asset-inf {
+    display: block;
+  }
+
+  .tradingview-widget-container {
+    height: 60vh; /* Full height of the parent container */
+    width: 100%;  /* Full width */
+  }
+}

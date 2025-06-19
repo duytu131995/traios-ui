@@ -1,0 +1,356 @@
+{
+  "homePage": "Trang chủ",
+  "header": {
+    "analysis": "Phân tích",
+    "pricing": "Bảng giá",
+    "trading": "Giao dịch",
+    "support": "Hỗ trợ",
+    "login": "Đăng nhập",
+    "register": "Đăng ký",
+    "profile": "Hồ sơ",
+    "settings": "Cài đặt",
+    "logout": "Đăng xuất",
+    "changePassword": "Đổi mật khẩu",
+    "upgradeTraiOS": "Nâng cấp TraiOS",
+    "signInSignUp": "Đăng nhập / Đăng ký",
+    "language": "Ngôn Ngữ",
+    "account": "Tài khoản"
+  },
+  "pricing": {
+    "hero": {
+      "title": "Nâng cấp TraiOS"
+    },
+    "plans": {
+      "duration": "tháng",
+      "free": {
+        "title": "Miễn phí",
+        "description": "Phù hợp cho người mới bắt đầu khám phá thế giới giao dịch tiền điện tử",
+        "features": {
+          "technical": "Xem 3 phân tích technical/sentiment và gợi ý lệnh gần nhất nhưng không bao gồm lịch sử mới nhất",
+          "timeLimit": "Hỗ trợ giới hạn thời gian (2 câu hỏi/ngày)",
+          "summary": "Xem summary cơ bản của tin tức (không kèm link)",
+          "marketStatus": "Đánh giá cơ bản về trạng thái thị trường từ manager đầu ngày",
+          "marketChanges": "Nhận thông báo về thay đổi lớn của thị trường"
+        },
+        "currentPlan": "Bạn đang sử dụng gói này",
+        "button": "Bắt đầu ngay"
+      },
+      "pro": {
+        "title": "Cao cấp",
+        "badge": "Phổ biến",
+        "description": "Dành cho các nhà giao dịch tích cực cần công cụ và phân tích nâng cao",
+        "features": {
+          "advanced": "Không giới hạn truy cập lịch sử phân tích (suggest lệnh, phân tích technical và sentiment",
+          "history": "Không giới hạn thời gian, hỗ trợ chat cá với quản lý cấp thấp và cấp cao",
+          "pairs": "Xem đầy đủ nội dung chi tiết và link nguồn tin",
+          "alerts": "Xem đánh giá chi tiết và kế hoạch hành động từ manager, cập nhật nhiều lần trong ngày",
+          "priority": "Thông báo push về các cơ hội và rủi ro tiềm năng ngay khi phát hiện"
+        },
+        "button": "Nâng cấp"
+      }
+    }
+  },
+  "login": {
+    "signIn": "Đăng nhập",
+    "email": "Email",
+    "createAccount": "Tạo tài khoản",
+    "forgotPassword": "Quên mật khẩu?",
+    "orContinueWith": "hoặc tiếp tục với email",
+    "next": "Tiếp tục"
+  },
+  "register": {
+    "title": "Tạo tài khoản TraiOS",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Nhập email của bạn",
+    "passwordLabel": "Mật khẩu",
+    "passwordPlaceholder": "Nhập mật khẩu của bạn",
+    "showPassword": "Hiện mật khẩu",
+    "hidePassword": "Ẩn mật khẩu",
+    "submitButton": "Tiếp tục",
+    "signInLink": "Đã có tài khoản? Đăng nhập ngay",
+    "orContinueWith": "hoặc tiếp tục với",
+    "logoAlt": "Logo TraiOS",
+    "socialButtons": {
+      "google": "Google",
+      "facebook": "Facebook",
+      "twitter": "Twitter",
+      "telegram": "Telegram"
+    },
+    "errors": {
+      "emptyFields": "Vui lòng nhập email và mật khẩu",
+      "logPrefix": "Lỗi đăng ký:",
+      "serverConnection": "Không thể kết nối đến máy chủ. Vui lòng thử lại sau.",
+      "genericFail": "Đăng ký thất bại. Vui lòng thử lại.",
+      "twitterLogin": "Lỗi đăng nhập Twitter:",
+      "facebookLogin": "Lỗi đăng nhập Facebook:",
+      "loginCancelled": "Đăng nhập đã bị hủy. Vui lòng thử lại.",
+      "accountExists": "Tài khoản đã tồn tại với phương thức đăng nhập khác.",
+      "twitterLoginFailed": "Lỗi đăng nhập Twitter: ",
+      "facebookLoginFailed": "Lỗi đăng nhập Facebook: ",
+      "tryAgainLater": "Vui lòng thử lại sau"
+    }
+  },
+  "forgotPassword": {
+    "title": "Nhập email của bạn",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Nhập email của bạn",
+    "submitButton": "Tiếp tục",
+    "backToLogin": "Quay lại đăng nhập",
+    "logoAlt": "Logo TraiOS",
+    "errors": {
+      "emailRequired": "Vui lòng nhập email của bạn",
+      "invalidEmail": "Email không hợp lệ",
+      "userNotFound": "Không tìm thấy người dùng với email này",
+      "serverError": "Lỗi máy chủ. Vui lòng thử lại sau"
+    }
+  },
+  "changePassword": {
+    "title": "Đổi mật khẩu",
+    "oldPasswordLabel": "Mật khẩu cũ",
+    "newPasswordLabel": "Mật khẩu mới",
+    "confirmPasswordLabel": "Xác nhận mật khẩu",
+    "oldPasswordPlaceholder": "Nhập mật khẩu cũ của bạn",
+    "newPasswordPlaceholder": "Nhập mật khẩu mới của bạn",
+    "confirmPasswordPlaceholder": "Xác nhận mật khẩu mới của bạn",
+    "submitButton": "Cập nhật mật khẩu",
+    "backToHome": "Quay lại trang chủ",
+    "logoAlt": "Logo TraiOS",
+    "successMessage": "Đổi mật khẩu thành công",
+    "showPassword": "Hiển thị mật khẩu",
+    "hidePassword": "Ẩn mật khẩu",
+    "errors": {
+      "passwordRequired": "Vui lòng nhập mật khẩu",
+      "passwordTooShort": "Mật khẩu phải có ít nhất 8 ký tự",
+      "passwordsDoNotMatch": "Mật khẩu không khớp",
+      "genericError": "Lỗi khi thay đổi mật khẩu. Vui lòng thử lại."
+    }
+  },
+  "passwordUpdated": {
+    "title": "Cập nhật mật khẩu thành công",
+    "message": "Mật khẩu của bạn đã được thiết lập thành công",
+    "backHomeButton": "Quay về trang chủ",
+    "logoAlt": "Logo TraiOS"
+  },
+  "signOut": "Đăng xuất",
+  "signUpNow": "Đăng ký ngay",
+  "password": "Mật khẩu",
+  "enterYourEmail": "Nhập email của bạn",
+  "enterYourPassword": "Nhập mật khẩu của bạn",
+  "dontHaveAccount": "Bạn chưa có tài khoản?",
+  "confirmLogout": "Bạn có chắc chắn muốn đăng xuất?",
+  "language": "Ngôn ngữ",
+  "user": "Người dùng",
+  "oldPassword": "Mật khẩu cũ",
+  "newPassword": "Mật khẩu mới",
+  "confirmPassword": "Xác nhận mật khẩu",
+  "passwordRequired": "Vui lòng nhập mật khẩu",
+  "passwordTooShort": "Mật khẩu phải có ít nhất 8 ký tự",
+  "passwordsDoNotMatch": "Mật khẩu không khớp",
+  "errorChangingPassword": "Lỗi khi thay đổi mật khẩu. Vui lòng thử lại.",
+  "passwordChangedSuccessfully": "Thay đổi mật khẩu thành công",
+  "passwordUpdated": "Cập nhật mật khẩu thành công!",
+  "passwordSetSuccessfully": "Mật khẩu của bạn đã được thiết lập thành công",
+  "backHome": "Quay về trang chủ",
+  "showPassword": "Hiển thị mật khẩu",
+  "hidePassword": "Ẩn mật khẩu",
+  "backToHome": "Quay lại trang chủ",
+  "landing": {
+    "footer": {
+      "rights": "Tất cả các quyền được bảo lưu."
+    },
+    "cta": {
+      "title": "Bắt đầu TraiOS ngay hôm nay",
+      "description": "Tăng cường tương lai tài chính của bạn với hướng dẫn tập trung vào việc xây dựng tài sản bền vững. Chúng tôi sử dụng phương pháp đã được chứng minh nhằm tối đa hóa lợi nhuận trong khi quản lý rủi ro một cách cẩn thận, đảm bảo tăng trưởng bền vững trong nhiều năm tới.",
+      "button": "Bắt đầu miễn phí"
+    },
+    "hero": {
+      "title": "AI hỗ trợ cho Quyết định Giao dịch",
+      "description": "Chuyển đổi dữ liệu thị trường thành lợi thế chiến lược thông minh và hiểu biết quyết định dựa trên AI. Sử dụng dữ liệu mạnh mẽ này với độ chính xác và cung cấp thông tin dự báo, tiết lộ xu hướng và cơ hội giao dịch sinh lời.",
+      "button": "Bắt đầu miễn phí"
+    }
+  },
+  
+  "languages": {
+    "english": "English",
+    "vietnamese": "Tiếng Việt",
+    "japanese": "日本語"
+  },
+  
+  "heroTitle": "Quyết định giao dịch với sức mạnh AI",
+  "heroDescription": "Chuyển đổi dữ liệu thị trường thành lợi thế chiến lược của bạn; công cụ AI của chúng tôi giải mã các mô hình phức tạp, định lượng rủi ro tiềm ẩn với độ chính xác cao và cung cấp những hiểu biết dự đoán, cho phép đưa ra quyết định giao dịch nhanh hơn, thông minh hơn và cuối cùng là có lợi nhuận hơn.",
+  "getStartedForFree": "Bắt đầu miễn phí",
+  
+  "featuresTitle": "Giao dịch với AI: Làm chủ thị trường thông minh 24/7",
+  "aiDecisionMakingAlt": "Ra quyết định bằng AI",
+  "aiDecisionMakingTitle": "Ra quyết định dựa trên AI",
+  "aiDecisionMakingDesc": "Trải nghiệm mô hình dựa trên rủi ro, áp dụng xu hướng thị trường theo ngữ cảnh, các số liệu, nền tảng kỹ thuật và hiểu biết của chuyên gia để tạo ra AI tinh vi cao.",
+  
+  "aiBrokerAssistanceAlt": "Hỗ trợ môi giới AI",
+  "aiBrokerAssistanceTitle": "Hỗ trợ môi giới với sức mạnh AI",
+  "aiBrokerAssistanceDesc": "Tham gia vào các cuộc hội thoại theo thời gian thực, 24/7 với trợ lý môi giới được hỗ trợ bởi AI. Bot đọc hiểu và nâng cao khả năng ra quyết định.",
+  
+  "aiLearningAlt": "Học tập AI",
+  "aiLearningTitle": "Học tập thích ứng dựa trên AI",
+  "aiLearningDesc": "Tận dụng học tập được hỗ trợ bởi AI Hội thoại (CPA) và các thuật toán máy học để liên tục nâng cao khả năng ra quyết định, thích ứng với những thay đổi của thị trường theo thời gian thực.",
+  
+  "infrastructureTitle": "Cơ sở hạ tầng đáng tin cậy cho sự phát triển",
+  "regulatoryComplianceAlt": "Tuân thủ quy định",
+  "regulatoryComplianceTitle": "Tuân thủ quy định",
+  "regulatoryComplianceDesc": "Chủ động phối hợp với các cơ quan quản lý tài chính ở Hoa Kỳ, Nhật Bản và Việt Nam để đảm bảo tuân thủ và an ninh.",
+  
+  "strategicPartnershipsAlt": "Đối tác chiến lược",
+  "strategicPartnershipsTitle": "Đối tác chiến lược",
+  "strategicPartnershipsDesc": "Hợp tác với các tổ chức tài chính và sàn giao dịch uy tín để tăng cường niềm tin, thanh khoản và khả năng tiếp cận thị trường.",
+  
+  "scalableInfrastructureAlt": "Khả năng mở rộng & Hiệu quả chi phí",
+  "scalableInfrastructureTitle": "Khả năng mở rộng & Hiệu quả chi phí",
+  "scalableInfrastructureDesc": "Kiến trúc dựa trên đám mây có khả năng phục vụ hàng triệu người dùng trên toàn cầu—mở rộng dễ dàng với chi phí nhân lực tối thiểu.",
+  
+  "auth": {
+    "telegramLogin": {
+      "title": "Đăng nhập với Telegram",
+      "description": "Vui lòng đăng nhập bằng tài khoản Telegram của bạn",
+      "cancel": "Hủy"
+    },
+    "errors": {
+      "login": {
+        "incorrect": "Email hoặc mật khẩu không chính xác",
+        "generic": "Đăng nhập thất bại",
+        "cancelled": "Đăng nhập đã bị hủy. Vui lòng thử lại.",
+        "unauthorized": "Tên miền chưa được cấu hình trong Firebase",
+        "server": "Lỗi máy chủ",
+        "configDomain": "Cần thêm tên miền hiện tại vào Firebase Console trong Authentication > Sign-in method > Authorized domains"
+      },
+      "telegram": {
+        "failed": "Đăng nhập Telegram thất bại: "
+      },
+      "google": {
+        "failed": "Đăng nhập Google thất bại: "
+      },
+      "facebook": {
+        "failed": "Đăng nhập Facebook thất bại: ",
+        "noToken": "AccessToken Facebook không tồn tại",
+        "noTokenApi": "API không trả về token hoặc access_token",
+        "userCancelled": "Người dùng đã hủy đăng nhập"
+      },
+      "twitter": {
+        "failed": "Đăng nhập Twitter thất bại: "
+      },
+      "register": {
+        "failed": "Đăng ký thất bại: "
+      },
+      "logout": {
+        "failed": "Đăng xuất thất bại: "
+      },
+      "password": {
+        "noUser": "Chưa có người dùng đăng nhập",
+        "changeFailed": "Lỗi thay đổi mật khẩu:"
+      },
+      "token": {
+        "refresh": "Không thể làm mới token",
+        "noNew": "Không nhận được token mới",
+        "refreshExpired": "Phiên đăng nhập đã hết hạn, vui lòng đăng nhập lại",
+        "sessionExpired": "Phiên làm việc đã hết hạn"
+      }
+    },
+    "logs": {
+      "facebook": {
+        "startApi": "Bắt đầu gọi API với Facebook accessToken:",
+        "apiEndpoint": "Gọi API endpoint:",
+        "response": "Phản hồi API đăng nhập Facebook:",
+        "userInfo": "Thông tin người dùng Facebook:",
+        "tokenSaved": "Token đã được lưu vào localStorage",
+        "accessTokenSaved": "Access token đã được lưu vào localStorage"
+      },
+      "auth": {
+        "tokenError": "Lỗi xác thực token:",
+        "logoutError": "Lỗi khi gọi API đăng xuất:",
+        "passwordError": "Lỗi thay đổi mật khẩu:",
+        "refreshError": "Lỗi refresh token:",
+        "tokenRefreshed": "Token đã được làm mới thành công",
+        "refreshTokenFailed": "Làm mới token thất bại"
+      }
+    }
+  },
+  "analysis": {
+    "signInSignUp": "Đăng nhập / Đăng ký",
+    "asset": "Tài sản",
+    "aiInfo": "Thông tin về AI",
+    "historyAnalysis": "Lịch sử & Phân tích",
+    "liveChat": {
+      "liveChat": "Trò chuyện trực tiếp",
+      "title": "TraiOS có thể giúp gì cho bạn?",
+      "inputPlaceholder": "Hỏi TraiOS",
+      "sendButton": "Gửi tin nhắn"
+    },
+    "upgradeTraiOS": "Nâng cấp TraiOS",
+    "signUp": "Đăng ký",
+    "logIn": "Đăng nhập",
+    "slotsLeft": "còn {{count}} vị trí",
+    "follow": "Theo dõi",
+    "copy": "Sao chép",
+    "stats": {
+      "daysTrading": "Số ngày giao dịch",
+      "copiers": "Người sao chép",
+      "profitSharing": "Chia sẻ lợi nhuận"
+    },
+    "performance": {
+      "title": "Hiệu suất",
+      "roi": "ROI",
+      "pnl": "PnL",
+      "winRate": "Tỷ lệ thắng",
+      "winPosition": "Vị thế thắng",
+      "totalPosition": "Tổng vị thế"
+    },
+    "chart": {
+      "cumulativePnL": "PnL tích lũy",
+      "cumulativeROI": "ROI tích lũy",
+      "timeSelector": {
+        "7days": "7 Ngày",
+        "30days": "30 Ngày",
+        "90days": "90 Ngày",
+        "180days": "180 Ngày"
+      }
+    },
+    "history": {
+      "analysisHistory": "Lịch sử phân tích",
+      "noPositionsFound": "Không tìm thấy vị thế nào cho ngày này",
+      "holdLong": "Giữ Long",
+      "holdShort": "Giữ Short",
+      "neutral": "Trung lập",
+      "holdLongUpper": "GIỮ LONG",
+      "holdShortUpper": "GIỮ SHORT",
+      "unknown": "KHÔNG XÁC ĐỊNH",
+      "valid": "Hợp lệ",
+      "invalid": "Không hợp lệ",
+      "inferenceId": "ID suy luận",
+      "orderType": "Loại lệnh",
+      "strategyName": "Tên Chiến lược",
+      "leverage": "Đòn bẩy",
+      "confidentScore": "Điểm tin cậy",
+      "returnOnRisk": "Lợi nhuận trên rủi ro",
+      "limitEntryPrice": "Giá vào lệnh giới hạn",
+      "stopLossPrice": "Giá dừng lỗ",
+      "stopPrice": "Giá dừng",
+      "takeProfitPrice": "Giá chốt lời",
+      "sentimentAnalysis": "Phân tích tâm lý",
+      "technicalAnalysis": "Phân tích kỹ thuật",
+      "reasoningAnalysis": "Phân tích lý luận",
+      "sentimentAnalysisSort": "Tâm lý",
+      "technicalAnalysisSort": "Kỹ thuật",
+      "reasoningAnalysisSort": "Lý luận",
+      "analysis": "Phân tích",
+      "viewLinks": "Xem liên kết",
+      "sentimentDetail": "Chi tiết tâm lý",
+      "noTechnicalAnalysis": "Không có phân tích kỹ thuật",
+      "noReasoningAnalysis": "Không có phân tích lý luận",
+      "pleaseLogin": "Vui lòng đăng nhập để xem toàn bộ nội dung",
+      "sentimentLinks": "Danh sách liên kết tâm lý",
+      "sentimentDetailTitle": "Chi tiết phân tích tâm lý",
+      "summarySort": "Tóm tắt",
+      "summary": "Tóm tắt phân tích"
+    }
+  }
+}
+
+

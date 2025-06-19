@@ -1,0 +1,344 @@
+{
+  "homePage": "ホームページ",
+  "header": {
+    "analysis": "分析",
+    "pricing": "料金",
+    "trading": "取引",
+    "support": "サポート",
+    "login": "ログイン",
+    "register": "登録",
+    "profile": "プロフィール",
+    "settings": "設定",
+    "logout": "ログアウト",
+    "changePassword": "パスワード変更",
+    "upgradeTraiOS": "TraiOSをアップグレード",
+    "signInSignUp": "ログイン / 登録",
+    "language": "言語",
+    "account": "アカウント"
+  },
+  "pricing": {
+    "hero": {
+      "title": "TraiOSをアップグレード"
+    },
+    "plans": {
+      "duration": "月",
+      "free": {
+        "title": "フリー",
+        "description": "暗号資産取引の世界を探索する初心者に最適",
+        "features": {
+          "technical": "最新の3つのテクニカル/センチメント分析と取引推奨（履歴なし）を表示",
+          "timeLimit": "限定サポート（1日2質問まで）",
+          "summary": "基本ニュースサマリー（リンクなし）",
+          "marketStatus": "一日の始めにマネージャーから基本的な市場状況評価",
+          "marketChanges": "大きな市場変動に関する通知"
+        },
+        "currentPlan": "現在このプランを使用中です",
+        "button": "今すぐ始める"
+      },
+      "pro": {
+        "title": "プレミアム",
+        "badge": "人気",
+        "description": "高度なツールと洞察を必要とするアクティブトレーダー向け",
+        "features": {
+          "advanced": "分析履歴への無制限アクセス（取引提案、テクニカルおよびセンチメント分析）",
+          "history": "無制限の時間、ジュニアおよびシニアマネージャーとのパーソナルチャットサポート",
+          "pairs": "ニュースの詳細なコンテンツとソースリンクの表示",
+          "alerts": "マネージャーからの詳細な評価とアクションプラン、一日に複数回更新",
+          "priority": "潜在的な機会とリスクについて、発見次第プッシュ通知"
+        },
+        "button": "アップグレード"
+      }
+    }
+  },
+  "login": {
+    "signIn": "サインイン",
+    "email": "メール",
+    "createAccount": "アカウントを作成する",
+    "forgotPassword": "パスワードをお忘れですか？",
+    "orContinueWith": "またはメールで続ける",
+    "next": "次へ"
+  },
+  "register": {
+    "title": "TraiOSアカウントを作成",
+    "emailLabel": "メール",
+    "emailPlaceholder": "メールアドレスを入力",
+    "passwordLabel": "パスワード",
+    "passwordPlaceholder": "パスワードを入力",
+    "showPassword": "パスワードを表示",
+    "hidePassword": "パスワードを非表示",
+    "submitButton": "次へ",
+    "signInLink": "すでにアカウントをお持ちですか？今すぐサインイン",
+    "orContinueWith": "または次で続ける",
+    "logoAlt": "TraiOSロゴ",
+    "socialButtons": {
+      "google": "Google",
+      "facebook": "Facebook",
+      "twitter": "Twitter",
+      "telegram": "Telegram"
+    },
+    "errors": {
+      "emptyFields": "メールアドレスとパスワードを入力してください",
+      "logPrefix": "登録エラー：",
+      "serverConnection": "サーバーに接続できません。後でもう一度お試しください。",
+      "genericFail": "登録に失敗しました。もう一度お試しください。",
+      "twitterLogin": "Twitterログインエラー：",
+      "facebookLogin": "Facebookログインエラー：",
+      "loginCancelled": "ログインがキャンセルされました。もう一度お試しください。",
+      "accountExists": "アカウントは既に別のログイン方法で存在します。",
+      "twitterLoginFailed": "Twitterログインエラー：",
+      "facebookLoginFailed": "Facebookログインエラー：",
+      "tryAgainLater": "後でもう一度お試しください"
+    }
+  },
+  "forgotPassword": {
+    "title": "メールアドレスを入力してください",
+    "emailLabel": "メール",
+    "emailPlaceholder": "メールアドレスを入力",
+    "submitButton": "次へ",
+    "backToLogin": "ログインに戻る",
+    "logoAlt": "TraiOSロゴ",
+    "errors": {
+      "emailRequired": "メールアドレスを入力してください",
+      "invalidEmail": "無効なメールアドレス",
+      "userNotFound": "このメールアドレスのユーザーが見つかりません",
+      "serverError": "サーバーエラー。後でもう一度お試しください"
+    }
+  },
+  "changePassword": {
+    "title": "パスワード変更",
+    "oldPasswordLabel": "古いパスワード",
+    "newPasswordLabel": "新しいパスワード",
+    "confirmPasswordLabel": "パスワードの確認",
+    "oldPasswordPlaceholder": "古いパスワードを入力",
+    "newPasswordPlaceholder": "新しいパスワードを入力",
+    "confirmPasswordPlaceholder": "新しいパスワードを確認",
+    "submitButton": "パスワードを更新",
+    "backToHome": "ホームに戻る",
+    "logoAlt": "TraiOSロゴ",
+    "successMessage": "パスワードが正常に変更されました",
+    "showPassword": "パスワードを表示",
+    "hidePassword": "パスワードを非表示",
+    "errors": {
+      "passwordRequired": "パスワードが必要です",
+      "passwordTooShort": "パスワードは8文字以上である必要があります",
+      "passwordsDoNotMatch": "パスワードが一致しません",
+      "genericError": "パスワードの変更中にエラーが発生しました。もう一度お試しください。"
+    }
+  },
+  "passwordUpdated": {
+    "title": "パスワードが更新されました",
+    "message": "パスワードが正常に設定されました",
+    "backHomeButton": "ホームに戻る",
+    "logoAlt": "TraiOSロゴ"
+  },
+  "landing": {
+    "footer": {
+      "rights": "All rights reserved."
+    },
+    "cta": {
+      "title": "今日からTraiOSを始めましょう",
+      "description": "大きな富を築くことに焦点を当てたガイダンスで、あなたの金融の未来を強化します。リターンを最大化しながらリスクを慎重に管理する実証済みの方法を採用し、長年にわたる持続可能な成長を確保します。",
+      "button": "無料で始める"
+    },
+    "hero": {
+      "title": "AI駆動の取引判断",
+      "description": "市場データをインテリジェントな戦略的優位性とAI駆動の意思決定インサイトに変換します。この強力なデータを精度と予測インサイトで活用し、収益性の高い取引傾向と機会を明らかにします。",
+      "button": "無料で始める"
+    }
+  },
+  "languages": {
+    "english": "English",
+    "vietnamese": "Tiếng Việt",
+    "japanese": "日本語"
+  },
+  "signOut": "サインアウト",
+  "signUpNow": "今すぐサインアップ",
+  "password": "パスワード",
+  "enterYourEmail": "メールアドレスを入力してください",
+  "enterYourPassword": "パスワードを入力してください",
+  "dontHaveAccount": "アカウントをお持ちでない場合",
+  "confirmLogout": "ログアウトしますか?",
+  "language": "言語",
+  "user": "ユーザー",
+  "oldPassword": "古いパスワード",
+  "newPassword": "新しいパスワード",
+  "confirmPassword": "パスワードを確認",
+  "passwordRequired": "パスワードが必要です",
+  "passwordTooShort": "パスワードは8文字以上である必要があります",
+  "passwordsDoNotMatch": "パスワードが一致しません",
+  "errorChangingPassword": "パスワードの変更中にエラーが発生しました。もう一度お試しください。",
+  "passwordChangedSuccessfully": "パスワードが正常に変更されました",
+  "passwordUpdated": "パスワードが更新されました！",
+  "passwordSetSuccessfully": "パスワードが正常に設定されました",
+  "backHome": "ホームに戻る",
+  "showPassword": "パスワードを表示",
+  "hidePassword": "パスワードを非表示",
+  "backToHome": "ホームに戻る",
+  
+  "heroTitle": "トレーディング判断のためのAIパワー",
+  "heroDescription": "市場データを戦略的優位性に変換します。AIエンジンが複雑なパターンを解読し、潜在的リスクを正確に定量化し、予測インサイトを提供し、より速く、よりスマートで、最終的により収益性の高いトレーディング判断を可能にします。",
+  "getStartedForFree": "無料で始める",
+  
+  "featuresTitle": "AIパワードトレーディング：24/7インテリジェント市場マスタリー",
+  "aiDecisionMakingAlt": "AI意思決定",
+  "aiDecisionMakingTitle": "AI駆動型意思決定",
+  "aiDecisionMakingDesc": "リスクベースモデルを体験し、文脈的な市場トレンド、メトリクス、テクニカルファンダメンタル、および専門家の洞察を適用して、高度に洗練されたAIを実現します。",
+  
+  "aiBrokerAssistanceAlt": "AIブローカー支援",
+  "aiBrokerAssistanceTitle": "AIパワード・ブローカー支援",
+  "aiBrokerAssistanceDesc": "私たちのAI駆動型ヒントブローカーとリアルタイム、24/7の会話に参加しましょう。ボットは洞察を読み取り、意思決定を強化します。",
+  
+  "aiLearningAlt": "AI学習",
+  "aiLearningTitle": "AI駆動型適応学習",
+  "aiLearningDesc": "会話型AIパワード学習（CPA）と機械学習アルゴリズムを活用して、意思決定を継続的に強化し、市場の変化にリアルタイムで適応します。",
+  
+  "infrastructureTitle": "成長のための信頼できるインフラストラクチャ",
+  "regulatoryComplianceAlt": "規制遵守",
+  "regulatoryComplianceTitle": "規制遵守",
+  "regulatoryComplianceDesc": "米国、日本、ベトナムの金融当局と積極的に連携し、コンプライアンスとセキュリティを確保します。",
+  
+  "strategicPartnershipsAlt": "戦略的パートナーシップ",
+  "strategicPartnershipsTitle": "戦略的パートナーシップ",
+  "strategicPartnershipsDesc": "信頼性の高い金融機関や取引所と協力して、信頼、流動性、市場アクセスを強化します。",
+  
+  "scalableInfrastructureAlt": "スケーラブル＆コスト効率",
+  "scalableInfrastructureTitle": "スケーラブル＆コスト効率",
+  "scalableInfrastructureDesc": "世界中の何百万ものユーザーにサービスを提供できるクラウドベースのアーキテクチャ—最小限の人的コストで簡単に拡張できます。",
+
+  "auth": {
+    "telegramLogin": {
+      "title": "Telegramでログイン",
+      "description": "Telegramアカウントでログインしてください",
+      "cancel": "キャンセル"
+    },
+    "errors": {
+      "login": {
+        "incorrect": "メールアドレスまたはパスワードが正しくありません",
+        "generic": "ログインに失敗しました",
+        "cancelled": "ログインがキャンセルされました。もう一度お試しください。",
+        "unauthorized": "ドメインがFirebaseで設定されていません",
+        "server": "サーバーエラー",
+        "configDomain": "現在のドメインをFirebase Consoleの Authentication > Sign-in method > Authorized domainsに追加する必要があります"
+      },
+      "telegram": {
+        "failed": "Telegramログインに失敗しました: "
+      },
+      "google": {
+        "failed": "Googleログインに失敗しました: "
+      },
+      "facebook": {
+        "failed": "Facebookログインに失敗しました: ",
+        "noToken": "Facebookのアクセストークンがありません",
+        "noTokenApi": "APIがトークンまたはアクセストークンを返しませんでした",
+        "userCancelled": "ユーザーがログインをキャンセルしました"
+      },
+      "twitter": {
+        "failed": "Twitterログインに失敗しました: "
+      },
+      "register": {
+        "failed": "登録に失敗しました: "
+      },
+      "logout": {
+        "failed": "ログアウトに失敗しました: "
+      },
+      "password": {
+        "noUser": "ログインしているユーザーがいません",
+        "changeFailed": "パスワードの変更エラー:"
+      }
+    },
+    "logs": {
+      "facebook": {
+        "startApi": "FacebookアクセストークンでAPIコールを開始:",
+        "apiEndpoint": "APIエンドポイントを呼び出し:",
+        "response": "Facebookログインのレスポンス:",
+        "userInfo": "Facebookユーザー情報:",
+        "tokenSaved": "トークンがlocalStorageに保存されました",
+        "accessTokenSaved": "アクセストークンがlocalStorageに保存されました"
+      },
+      "auth": {
+        "tokenError": "トークン認証エラー:",
+        "logoutError": "ログアウトAPI呼び出しエラー:",
+        "passwordError": "パスワード変更エラー:"
+      }
+    }
+  },
+  "analysis": {
+    "signInSignUp": "サインイン / サインアップ",
+    "asset": "資産",
+    "aiInfo": "AI全体的な情報",
+    "historyAnalysis": "履歴と分析",
+    "liveChat": {
+      "liveChat": "ライブチャット",
+      "title": "TraiOSはどのようにお手伝いできますか？",
+      "inputPlaceholder": "TraiOSに質問する",
+      "sendButton": "メッセージを送信"
+    },
+    "upgradeTraiOS": "TraiOSをアップグレード",
+    "signUp": "サインアップ",
+    "logIn": "ログイン",
+    "slotsLeft": "残り{{count}}スロット",
+    "follow": "フォロー",
+    "copy": "コピー",
+    "stats": {
+      "daysTrading": "取引日数",
+      "copiers": "コピワー数",
+      "profitSharing": "利益共有"
+    },
+    "performance": {
+      "title": "パフォーマンス",
+      "roi": "ROI",
+      "pnl": "損益",
+      "winRate": "勝率",
+      "winPosition": "勝ちポジション",
+      "totalPosition": "総ポジション"
+    },
+    "chart": {
+      "cumulativePnL": "累積損益",
+      "cumulativeROI": "累積ROI",
+      "timeSelector": {
+        "7days": "7日間",
+        "30days": "30日間",
+        "90days": "90日間",
+        "180days": "180日間"
+      }
+    },
+    "history": {
+      "analysisHistory": "分析履歴",
+      "noPositionsFound": "この日付のポジションが見つかりません",
+      "holdLong": "ホールドロング",
+      "holdShort": "ホールドショート",
+      "neutral": "ニュートラル",
+      "holdLongUpper": "ホールドロング",
+      "holdShortUpper": "ホールドショート",
+      "unknown": "不明",
+      "valid": "有効",
+      "invalid": "無効",
+      "inferenceId": "推論ID",
+      "orderType": "オーダータイプ",
+      "strategyName": "戦略名",
+      "leverage": "レバレッジ",
+      "confidentScore": "信頼スコア",
+      "returnOnRisk": "リスクに対するリターン",
+      "limitEntryPrice": "指値エントリー価格",
+      "stopLossPrice": "損切り価格",
+      "stopPrice": "ストップ価格",
+      "takeProfitPrice": "利確価格",
+      "sentimentAnalysis": "センチメント分析",
+      "technicalAnalysis": "テクニカル分析",
+      "reasoningAnalysis": "リーズニング分析",
+      "sentimentAnalysisSort": "センチメント",
+      "technicalAnalysisSort": "テクニカル",
+      "reasoningAnalysisSort": "推論",
+      "analysis": "分析",
+      "viewLinks": "リンクを表示",
+      "sentimentDetail": "センチメント詳細",
+      "noTechnicalAnalysis": "テクニカル分析がありません",
+      "noReasoningAnalysis": "推論分析がありません",
+      "pleaseLogin": "すべてのコンテンツを表示するにはログインしてください",
+      "sentimentLinks": "センチメントリンク",
+      "sentimentDetailTitle": "センチメント詳細",
+      "summarySort": "サマリー",
+      "summary": "分析サマリー"
+    }
+  }
+} 

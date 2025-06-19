@@ -1,0 +1,100 @@
+.credit-card {
+    background: linear-gradient(135deg, #3a3a3a, #1a1a1a); /* Charcoal gray gradient */
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    border: none;
+    color: #ffffff; /* White text for contrast */
+    display: flex;
+    flex-direction: column;
+    min-height: 200px;
+    overflow: hidden;
+}
+
+.credit-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.credit-card-header h2 {
+    font-size: 1.2rem;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    /* color: #ffffff;  White for clear contrast */
+}
+
+.validation-valid {
+    color: #28a745; /* Green for valid */
+    font-weight: bold;
+}
+
+.validation-invalid {
+    color: #dc3545; /* Red for invalid */
+    font-weight: bold;
+}
+
+.credit-card-body {
+    display: grid; /* Grid layout for alignment */
+    grid-template-columns: 1fr 1fr; /* Two columns */
+    gap: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.credit-card-body p {
+    margin: 0;
+    line-height: 1.4;
+    color: #dcdcdc; /* Light gray for readability */
+}
+
+.credit-card-body p strong {
+    color: #aaaaaa; /* Muted gray for titles */
+    font-weight: normal; /* De-emphasize titles */
+}
+
+.credit-card-body p span {
+    color: #ffffff; /* White for values */
+    font-weight: bold; /* Emphasize values */
+}
+
+.credit-card-body .inference-id {
+    grid-column: 1 / -1; /* Full row span */
+    font-weight: bold;
+    color: #ffffff; /* Highlighted for emphasis */
+}
+
+.credit-card-footer {
+    margin-top: auto;
+    font-size: 0.8rem;
+    font-style: italic;
+    color: #cccccc; /* Muted footer text */
+}
+
+.validation-error {
+    color: #dc3545 !important; /* High contrast for error messages */
+    font-style: italic;
+}
+
+.side-neutral {
+    color: #ffffff; /* Trắng */
+}
+
+.side-long {
+    color: #28a745; /* Xanh */
+}
+
+.side-short {
+    color: #dc3545; /* Đỏ */
+}
+
+.side-hold {
+    color: #ff8c00; /* Vàng cam */
+}
+
+.side-unknown {
+    color: #dcdcdc; /* Màu xám nhạt */
+}
+  

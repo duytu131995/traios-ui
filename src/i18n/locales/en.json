@@ -1,0 +1,26 @@
+{
+  "pricing": "Pricing",
+  "analysis": "Analysis",
+  "upgradePlan": "Upgrade TraiOS",
+  "freePlan": "Free",
+  "premiumPlan": "Premium",
+  "month": "month",
+  "popular": "Popular",
+  "useNow": "Use Now",
+  "upgrade": "Upgrade",
+  "dashboard": "Dashboard",
+  "signUp": "Sign Up",
+  "signIn": "Sign In",
+  
+  "freePlanFeature1": "View 3 technical/sentiment analyses and the latest command suggestions without including recent history",
+  "freePlanFeature2": "Limited time support (2 questions/day)",
+  "freePlanFeature3": "View basic news summaries (without links)",
+  "freePlanFeature4": "Basic assessment of market conditions from manager at the beginning of the day",
+  "freePlanFeature5": "Receive notifications about major market changes",
+  
+  "premiumPlanFeature1": "Unlimited access to analysis history (command suggestions, technical and sentiment analysis)",
+  "premiumPlanFeature2": "Unlimited time, chat support with both low and high-level managers",
+  "premiumPlanFeature3": "View full detailed content and source links",
+  "premiumPlanFeature4": "View detailed assessments and action plans from managers, multiple updates throughout the day",
+  "premiumPlanFeature5": "Push notifications about potential opportunities and risks as soon as they are detected"
+} 
