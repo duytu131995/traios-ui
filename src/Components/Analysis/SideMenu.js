@@ -127,7 +127,8 @@ const SideMenu = ({
           </Link>
           <hr />
           <div className="copyright">
-            Copyright © 2025 TraiOS. All rights reserved.
+            Copyright © 2025 TraiOS. All rights reserved. <br/><br/>
+            Built with Bolt.new.
           </div>
         </div>
       ) : (
@@ -170,7 +171,8 @@ const SideMenu = ({
           </Link>
           <hr />
           <div className="copyright">
-            Copyright © 2025 TraiOS. All rights reserved.
+            Copyright © 2025 TraiOS. All rights reserved. <br/><br/>
+            Built with Bolt.new.
           </div>
         </div>
       )}

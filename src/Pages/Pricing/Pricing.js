@@ -122,6 +122,7 @@ const Pricing = () => {
       <footer className="landing-footer">
         {/* <p>Copyright © 2025 TraiOS. {t('landing.footer.rights')}</p> */}
         <p>Copyright © 2025 TraiOS. All rights reserved.</p>
+        <p>Built with Bolt.new.</p>
       </footer>
     </div>
   );
