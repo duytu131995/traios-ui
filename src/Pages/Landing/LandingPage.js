@@ -145,6 +145,7 @@ const LandingPage = () => {
       {/* Footer */}
       <footer className="landing-footer">
         <p>© 2024 TraiOS. {t('landing.footer.rights', 'All rights reserved.')}</p>
+        <p>Built with Bolt.new.</p>
       </footer>
     </div>
   );
